@@ -1,0 +1,90 @@
+/* SkillsSection.css */
+.skills-section {
+  padding-bottom: 25px;
+  padding-top: 25px; /* Add space at the bottom of the section */
+  background-color: #f8f8f8; /* Light gray background color */
+}
+
+.skills-heading {
+  position: relative;
+  display: inline-block;
+  color: #333; /* Dark text color for the heading */
+}
+
+.skills-heading:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, #34c7f3, #007bff); /* Gradient for the line */
+  bottom: 0;
+  left: 0;
+}
+
+.skills-divider {
+  border-top: 2px solid #ddd; /* Divider line between each section */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+  background: linear-gradient(#fff, #f8f8f8); /* Gradient background for the card */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background: linear-gradient(to right, #007bff, #0056b3); /* Gradient for the header background */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.card-body li {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333; /* Dark text color for list items */
+}
+
+.card-divider {
+  border-top: 1px solid #ddd; /* Divider line between each skill */
+  margin: 5px 0;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+/* Hover effect */
+.card:hover .card-header {
+  background: linear-gradient(to right, #0056b3, #003366); /* Gradient for the header background on hover */
+}
+
+.card:hover .card-body li {
+  color: #0056b3;
+  transition: color 0.3s ease;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Make cards occupy full width */
+    margin-right: 0; /* Remove right margin to prevent spacing issues */
+  }
+}
