@@ -1,6 +1,6 @@
 // Footer.tsx
 import React from 'react';
-import { FaInstagram, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'; // Import icons of your choice
+import { FaInstagram, FaLinkedin } from 'react-icons/fa'; // Import icons of your choice
 import './styles/Footer.css';
 
 const Footer: React.FC = () => {
@@ -20,23 +20,14 @@ const Footer: React.FC = () => {
         <div className="col-md-6 text-right">
           <ul className="social-links">
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/heather.hoffman_/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram className="social-icon" />
               </a>
             </li>
+            
             <li>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <FaTwitter className="social-icon" />
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/heather-hoffman-1988bb193/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="social-icon" />
-              </a>
-            </li>
-            <li>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <FaGithub className="social-icon" />
               </a>
             </li>
           </ul>

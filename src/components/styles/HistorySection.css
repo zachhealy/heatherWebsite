@@ -2,7 +2,8 @@
 .history-section {
   padding: 50px 100px; /* Increase padding for a more spacious feel */
   background-color: #f0f0f0; /* Light gray background color for a visual break */
-  
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .history-heading {

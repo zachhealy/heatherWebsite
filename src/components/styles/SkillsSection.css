@@ -1,8 +1,9 @@
 /* SkillsSection.css */
 .skills-section {
-  padding-bottom: 25px;
-  padding-top: 25px; /* Add space at the bottom of the section */
-  background-color: #f8f8f8; /* Light gray background color */
+  padding: 50px 1000px;
+  background-color: #f0f0f0; /* Light gray background color */
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .skills-heading {
@@ -41,8 +42,9 @@
 }
 
 .card-header {
-  background: linear-gradient(to right, #007bff, #0056b3); /* Gradient for the header background */
-  color: white;
+  background: linear-gradient(to right, #34c7f3, #007bff); /* Gradient for the heading */
+  -webkit-background-clip: text;
+  color: transparent;
   text-align: center;
   padding: 10px;
   border-top-left-radius: 10px;
@@ -73,7 +75,10 @@
 
 /* Hover effect */
 .card:hover .card-header {
-  background: linear-gradient(to right, #0056b3, #003366); /* Gradient for the header background on hover */
+  background: linear-gradient(to right, #34c7f3, #007bff); /* Gradient for the heading */
+  -webkit-background-clip: inherit;
+  color: white;
+  transition: .5s;
 }
 
 .card:hover .card-body li {

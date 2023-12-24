@@ -1,0 +1,50 @@
+/* NavBar.css */
+.navbar {
+    background-color: #007bff;
+    padding: 20px 0; /* Increased padding for a bigger navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 1.8em; /* Adjusted font size for the brand */
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    color: #fff;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Dropdown Styles */
+  .dropdown-menu {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .dropdown-item {
+    color: #fff;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #0056b3;
+  }
+  

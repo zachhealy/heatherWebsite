@@ -1,7 +1,7 @@
 // SkillsSection.tsx
 import React from 'react';
-import { FaPenNib, FaChartBar, FaStar } from 'react-icons/fa'; 
-import './styles/SkillsSection.css'; 
+import { FaPenNib, FaChartBar, FaStar } from 'react-icons/fa';
+import './styles/SkillsSection.css';
 
 const SkillsSection: React.FC = () => {
   return (
@@ -15,12 +15,10 @@ const SkillsSection: React.FC = () => {
             <h3 className="card-header">
               <FaChartBar className="icon" /> Marketing
             </h3>
-            <ul className="card-body">
-              <li>Sprout</li>
-              <div className="card-divider"></div>
-              <li>WebFlow</li>
-              <div className="card-divider"></div>
-              <li>SEO</li>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item">Sprout</li>
+              <li className="list-group-item">WebFlow</li>
+              <li className="list-group-item">SEO</li>
             </ul>
           </div>
         </div>
@@ -30,12 +28,10 @@ const SkillsSection: React.FC = () => {
             <h3 className="card-header">
               <FaPenNib className="icon" /> Design
             </h3>
-            <ul className="card-body">
-              <li>Canva</li>
-              <div className="card-divider"></div>
-              <li>Photoshop</li>
-              <div className="card-divider"></div>
-              <li>SOMETHING ELSE</li>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item">Canva</li>
+              <li className="list-group-item">Photoshop</li>
+              <li className="list-group-item">SOMETHING ELSE</li>
             </ul>
           </div>
         </div>
@@ -45,12 +41,10 @@ const SkillsSection: React.FC = () => {
             <h3 className="card-header">
               <FaStar className="icon" /> Other
             </h3>
-            <ul className="card-body">
-              <li>Microsoft Office</li>
-              <div className="card-divider"></div>
-              <li>Slack</li>
-              <div className="card-divider"></div>
-              <li>Responsive Design</li>
+            <ul className="list-group list-group-flush">
+              <li className="list-group-item">Microsoft Office</li>
+              <li className="list-group-item">Slack</li>
+              <li className="list-group-item">Responsive Design</li>
             </ul>
           </div>
         </div>

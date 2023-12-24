@@ -3,6 +3,8 @@
   padding: 100px 20px; /* Adjusted padding for better responsiveness */
   background-color: #f5f5f5; /* Neutral background color */
   color: #333; /* Dark text color */
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .hero-content {

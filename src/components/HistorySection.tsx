@@ -13,7 +13,7 @@ const HistorySection: React.FC = () => {
         <div className="col-md-12">
           <p className="history-blurb">
             During her time in college, Hoffman started her career in marketing early!
-            She worked many student jobs for the univeristy marketing department such as being a marketing assistant,
+            She worked many student jobs for the univeristy marketing department such as being a social media assistant,
             as well as a social ambassador. After being a stellar student at Southeast Missouri State University, Hoffman graduated with 
             the honors of Summa Cum Laude, obtaining a Marketing Degree. She then went straight into the field,
             getting a job with Convergence Companies as a Marketing and Communications Specalist where
