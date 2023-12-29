@@ -1,7 +1,7 @@
 // SkillsSection.tsx
-import React from 'react';
-import { FaPenNib, FaChartBar, FaStar } from 'react-icons/fa';
-import './styles/SkillsSection.css';
+import React from "react";
+import { FaPenNib, FaChartBar, FaStar } from "react-icons/fa";
+import "./styles/SkillsSection.css";
 
 const SkillsSection: React.FC = () => {
   return (
@@ -9,7 +9,6 @@ const SkillsSection: React.FC = () => {
       <h2 className="display-3 font-weight-bold skills-heading">Skills</h2>
       <hr className="skills-divider" />
       <div className="row">
-
         <div className="col-sm-4">
           <div className="card">
             <h3 className="card-header">
@@ -48,7 +47,6 @@ const SkillsSection: React.FC = () => {
             </ul>
           </div>
         </div>
-
       </div>
     </section>
   );

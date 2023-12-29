@@ -1,11 +1,28 @@
 // NavBar.tsx
-import React from 'react';
+import React from "react";
 
-const NavBar: React.FC = () => {
+interface NavBarProps {
+  setActiveSection: React.Dispatch<React.SetStateAction<string>>;
+}
+
+const NavBar: React.FC<NavBarProps> = ({ setActiveSection }) => {
+  const handleNavItemClick = (
+    section: string,
+    e: React.MouseEvent<HTMLAnchorElement>
+  ) => {
+    e.preventDefault();
+    setActiveSection(section);
+  };
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
-        <a className="navbar-brand" href="/"><b>HH</b></a>
+        <a
+          className="navbar-brand"
+          href="/"
+          onClick={(e) => handleNavItemClick("home", e)}
+        >
+          <b>HH</b>
+        </a>
 
         <button
           className="navbar-toggler"
@@ -22,10 +39,22 @@ const NavBar: React.FC = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="/">Home</a>
+              <a
+                className="nav-link"
+                href="/blog"
+                onClick={(e) => handleNavItemClick("blog", e)}
+              >
+                Blog
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">Blog</a>
+              <a
+                className="nav-link"
+                href="/contact"
+                onClick={(e) => handleNavItemClick("contact", e)}
+              >
+                Contact Me
+              </a>
             </li>
           </ul>
         </div>

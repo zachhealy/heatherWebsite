@@ -1,0 +1,14 @@
+/* App.css */
+.page {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  
+  .page-exit {
+    opacity: 1;
+  }
+  
+  .page-exit-active {
+    opacity: 0;
+  }
+  
